@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/userTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Usuário: " />
+
+    <TextView
+        android:id="@+id/passTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Senha: "/>
+
+    <EditText
+        android:id="@+id/userEditText"
+        android:hint="Login"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/passEditText"
+        android:inputType="textPassword"
+        android:hint="Senha"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/enviarBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar"/>
+
+</android.support.constraint.ConstraintLayout>

@@ -8,6 +8,7 @@ import android.view.View.OnClickListener;
 import android.widget.EditText;
 import android.widget.TextView;
 import android.util.Log;
+import org.jetbrains.anko.
 
 public class MainActivity extends AppCompatActivity {
 
@@ -44,10 +45,10 @@ public class MainActivity extends AppCompatActivity {
                         AppStaticServices.login(userEditText.getText().toString(), passEditText.getText().toString());
 
                 if(loginBoolValue)
-                    Log.i("MainActivity", "Bem-vindo administrador.");
+                    toast("Bem-vindo administrador.");
 
                 else
-                    Log.i("MainActivity", "usuário/senha incorretos.");
+                    toast("usuário/senha incorretos.");
             }
         });
     }
