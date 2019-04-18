@@ -19,9 +19,6 @@ class MainActivity : AppCompatActivity() {
             val emailText: EditText = findViewById<EditText>(R.id.email)
             val loginText: EditText = findViewById<EditText>(R.id.login)
             val senhaText: EditText = findViewById<EditText>(R.id.senha)
-
-
-
         }
     }
 }
